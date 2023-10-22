@@ -1,0 +1,57 @@
+
+.container{
+    background: linear-gradient(to bottom left, #33ccff 0%, #ff9966 100%);
+    margin: auto;
+    width: 70%;
+    min-height: 100vh;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.container >form{
+    display: flex;
+    flex-direction: column;
+}
+.container >form >input,textarea,button{
+    padding: 20px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+button{
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to bottom left, #33ccff 0%, #009933 100%);
+    color: white;
+   
+}
+
+
+.container>h1{
+    text-align: center;
+    color: black;
+    font-size: 45px;
+
+}
+.task{
+    display: flex;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 8px;
+}
+.task >div{
+    width: 100%;
+}
+.task button{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.task button:hover{
+    background: linear-gradient(to bottom left, #ff0000 0%, #990000 100%);
+}
